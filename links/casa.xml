@@ -14,16 +14,19 @@
       <title>Cayo Perico`s</title>
       <description> Cayo Perico Heist with more than 3 million. </description>
       <link>http://localhost/GrandTheft/htmls/News.html</link>
+      <enclosure url="../src/cayo.jpeg" length="12345" type="image/jpeg" />
     </item>
     <item>
       <title>The Doomsday Heist</title>
       <description> Let save the World!</description>
       <link>http://localhost/GrandTheft/htmls/News.html</link>
+       <enclosure url="../src/Doom heist.jpg" length="12345" type="image/jpeg" />
     </item>
     <item>
       <title>Original Heist Has removed</title>
       <description>NOOBS! Don't play this game</description>
       <link>http://localhost/GrandTheft/htmls/News.html</link>
+      <enclosure url="../src/Originalheists.jpeg" length="12345" type="image/jpeg" />
     </item>
   </channel>
 </rss>
