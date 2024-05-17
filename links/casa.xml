@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding= "UTF-8"?>
+<!DOCTYPE CASA SYSTEM "DTD.dtd">
+<rss version="2.0">
+  <channel>
+    <title>Grand Theft Auto RSS</title>
+    <description>News About Grand Theft Auto Online. Please Subscribe!</description>
+    <item>
+      <title>Cluckin Bell Heist</title>
+      <description> New Heist on Grand Theft Auto V. </description>
+      <link>http://localhost/GrandTheft/htmls/News.html</link>
+      <enclosure url="../src/cluckin.avif" length="12345" type="image/jpeg" />
+    </item>
+    <item>
+      <title>Cayo Perico`s</title>
+      <description> Cayo Perico Heist with more than 3 million. </description>
+      <link>http://localhost/GrandTheft/htmls/News.html</link>
+    </item>
+    <item>
+      <title>The Doomsday Heist</title>
+      <description> Let save the World!</description>
+      <link>http://localhost/GrandTheft/htmls/News.html</link>
+    </item>
+    <item>
+      <title>Original Heist Has removed</title>
+      <description>NOOBS! Don't play this game</description>
+      <link>http://localhost/GrandTheft/htmls/News.html</link>
+    </item>
+  </channel>
+</rss>

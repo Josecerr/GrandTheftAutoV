@@ -1,0 +1,84 @@
+<html>
+
+<head>
+  <title>Grand Theft Auto-Register</title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+  <link href="../style/estilo.css" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="../src/icon.png" type="image" />
+</head>
+
+<body>
+<div class="wrapper"> 
+  <header class="header" id="header">
+    <div class="header1">
+      <h1><span style="color: red;">Grand </span><span>Theft</span> <span style="color:blue;">Auto</span></h1>
+      <img src="../src/pngimg.com - gta_PNG14.png" />
+    </div>
+
+    <nav class="boto">
+      <a href="../index.html" class="v">Home</a>
+      <a href="../htmls/Social media.html" class="v">Social Media</a>
+      <a href="../htmls/Games.html" class="v">Games</a>
+      <a href="../htmls/News.html">News</a>
+    </nav>
+  </header>
+
+  <div id="index">
+    <div id="indextitle">
+      <h2>Registration </h2>
+      <img src="../src/Girl.png" alt="" />
+    </div>
+
+    <div id="register">
+      <form action="../formulario.php" method="post" name="register2">
+
+        <p>Name</p>
+        <input type="text" name="name" value="" size="20" maxlength="30" />
+        <br />
+
+        <p>Surname(Optional)</p> <br />
+        <input type="text" name="surname" value="" size="25" maxlength="80" />
+        <br />
+
+        <p>Age</p><br />
+        <input type="text" name="age" value="" size="25" maxlength="3" />
+
+        <p>Email</p>
+        <input name="mail" maxlength="25" type="TEXT" size="50">
+        <br />
+        <p>Password</p>
+        <input type="password" name="password" value="" maxlength="30" />
+        <br />
+
+        <p>Confirm Password</p>
+        <input type="password" name="passwordtwo" value="" maxlength="30" />
+        <br />
+
+        <p>Gender</p>
+        <input type="radio" name="gender" value="men" checked /> Men <br />
+        <input type="radio" name="gender" value="women" /> Women  <br>
+
+        <br />
+
+        <input name="suscribir" type="checkbox" value="suscribir" checked="checked" />
+        I want to Subscribe to Rockstar Fan Page
+        <br /><br />
+
+        <br>
+        <input type="submit"  value="Send" onclick="revise()" />
+        <input type="reset"  value="Erase the data" />
+
+        <a id="support" href="https://support.rockstargames.com/">Support</a>
+
+      </form>
+
+    </div>
+
+  </div>
+
+  </div>
+  <script src="../style/JS.js"></script>
+</div>
+</body>
+
+</html>
